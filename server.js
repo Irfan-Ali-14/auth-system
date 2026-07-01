@@ -6,7 +6,7 @@ const userRoutes=require('./routes/userRoutes')
  const connectDB=require('./config/db')
 
  dotenv.config()//env file k values ko process ma dalna
-
+ console.log("DEBUG MONGODB_URL:", process.env.MONGODB_URL) 
  const app=express();
   app.use(express.json())
   
