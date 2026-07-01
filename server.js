@@ -16,7 +16,7 @@ const userRoutes=require('./routes/userRoutes')
 
  const PORT=process.env.PORT || 3000
 
- connectDB();
+ //connectDB();
 
  app.listen(PORT,()=>{
     console.log(`Server is Running on port ${PORT}`);
